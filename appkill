@@ -1,6 +1,6 @@
 [
   {
-    "close": true,
+    "close": false,
     "Name": "SK SHAKIL UDP PRO",
     "PackageName": "com.shakil.udpovpn"
   },
