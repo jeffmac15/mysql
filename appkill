@@ -1,0 +1,12 @@
+[
+  {
+    "close": true,
+    "Name": "SK SHAKIL UDP PRO",
+    "PackageName": "com.shakil.udpovpn"
+  },
+  {
+    "close": false,
+    "Name": "VAI VAI CALL SUPPORT",
+    "PackageName": "com.rakib.tunnel.udpovpn"
+  }
+]
