@@ -1,6 +1,5 @@
 #!/bin/bash
 ## Copyright ©UDPTeam
-## Discord: https://discord.gg/civ3
 ## Script to keep-alive your DNSTT server domain record query from target resolver/local dns server
 ## Run this script excluded to your VPN tunnel (split vpn tunneling mode)
 ## run command: ./globe-civ3.sh l
@@ -54,7 +53,7 @@ check(){
   done
  done
 }
-echo "DNSTT Keep-Alive script <Discord @civ3>"
+echo "DNSTT Keep-Alive script <Dexter Eskalarte>"
 echo -e "DNS List: [\e[1;34m${HOSTS[*]}\e[0m]"
 echo "CTRL + C to close script"
 [[ "${LOOP_DELAY}" -eq 1 ]] && let "LOOP_DELAY++";
