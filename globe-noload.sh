@@ -2,11 +2,14 @@
 ## Copyright ©UDPTeam
 ## Script to keep-alive your DNSTT server domain record query from target resolver/local dns server
 ## Run this script excluded to your VPN tunnel (split vpn tunneling mode)
-## run command: ./globe-civ3.sh l
+## run command: ./globe-arat.sh l
 
 ## Your DNSTT Nameserver & your Domain `A` Record
-NS='b2.dns.slowdns.online'
-A='b1.dns.slowdns.online'
+NS='priv.ns1.jkimhost.com'
+NS1='priv.ns2.jkimhost.com'
+NS2='priv.ns3.jkimhost.com'
+NS3='priv.ns4.jkimhost.com'
+A='priv.ns5.jkimhost.com'
 ## Repeat dig cmd loop time (seconds) (positive interger only)
 LOOP_DELAY=5
 
